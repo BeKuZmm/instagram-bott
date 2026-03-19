@@ -129,7 +129,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         with open(filename, 'rb') as video_file:
             await update.message.reply_video(
                 video=video_file,
-                caption="✅ Mana sizning videongiz!\n\n🤖 @YourBotUsername",
+                caption="✅ Mana sizning videongiz!\n\n🤖 @openn_instagram_bot",
                 supports_streaming=True
             )
         await status_msg.delete()
